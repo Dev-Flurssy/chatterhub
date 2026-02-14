@@ -1,0 +1,33 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b5fb0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b7fc7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6ba9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Glow Circle -->
+  <circle cx="60" cy="60" r="58" fill="url(#glowGradient)" opacity="0.5"/>
+  
+  <!-- Main Circle Background -->
+  <circle cx="60" cy="60" r="50" fill="url(#mainGradient)"/>
+  
+  <!-- Chat Bubble -->
+  <path d="M85 35H35C31.7 35 29 37.7 29 41V71L39 61H85C88.3 61 91 58.3 91 55V41C91 37.7 88.3 35 85 35Z" 
+        fill="white" opacity="0.95"/>
+  
+  <!-- Chat Dots with gradient -->
+  <circle cx="50" cy="48" r="4" fill="url(#mainGradient)"/>
+  <circle cx="60" cy="48" r="4" fill="url(#mainGradient)"/>
+  <circle cx="70" cy="48" r="4" fill="url(#mainGradient)"/>
+  
+  <!-- Sparkle Effect -->
+  <path d="M75 30 L76 32 L78 33 L76 34 L75 36 L74 34 L72 33 L74 32 Z" fill="white" opacity="0.8"/>
+  <path d="M40 25 L41 27 L43 28 L41 29 L40 31 L39 29 L37 28 L39 27 Z" fill="white" opacity="0.6"/>
+</svg>
