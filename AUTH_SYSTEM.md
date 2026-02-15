@@ -55,13 +55,13 @@ Set `DEV_MODE=true` in `.env` to enable development features:
 ```
 📧 [DEV MODE] Email would be sent:
 To: user@example.com
-Subject: Verify Your Email - ChatterHub
-Content: Your verification code is: 123456
+Subject: Verify Your Email
+Content: Your verification code is: XXXXXX
 ---
 
 📱 [DEV MODE] SMS would be sent:
-To: +1234567890
-Message: Your ChatterHub verification code is: 654321
+To: +XXXXXXXXXXXX
+Message: Your verification code is: XXXXXX
 ---
 ```
 
@@ -221,9 +221,9 @@ Update `.env` with your email provider:
 DEV_MODE=false
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
-EMAIL_USER=your-email@gmail.com
+EMAIL_USER=your-email@example.com
 EMAIL_PASSWORD=your-app-password
-EMAIL_FROM=ChatterHub <noreply@chatterhub.com>
+EMAIL_FROM=YourApp <noreply@yourapp.com>
 ```
 
 ### Gmail Setup
@@ -354,10 +354,10 @@ NODE_ENV=development
 DEV_MODE=true
 
 # Database
-MONGO_URI=mongodb://localhost:27017/chatterhub
+MONGO_URI=mongodb://localhost:27017/yourdb
 
 # JWT
-JWT_SECRET=your-secret-key
+JWT_SECRET=your-secret-key-change-this
 
 # Frontend
 CLIENT_URL=http://localhost:3000
@@ -366,9 +366,9 @@ FRONTEND_URL=http://localhost:3000
 # Email (Production)
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
-EMAIL_USER=your-email@gmail.com
+EMAIL_USER=your-email@example.com
 EMAIL_PASSWORD=your-app-password
-EMAIL_FROM=ChatterHub <noreply@chatterhub.com>
+EMAIL_FROM=YourApp <noreply@yourapp.com>
 
 # OAuth (Optional)
 GOOGLE_CLIENT_ID=your-google-client-id

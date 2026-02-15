@@ -4,9 +4,8 @@
 ChatterHub now has a comprehensive admin dashboard with user management, analytics, and system monitoring capabilities.
 
 ## Admin Account
-- **Email**: admin@chatterhub.com
-- **Password**: Admin1234
 - **Creation**: Run `node createAdmin.js` in the backend directory
+- **Credentials**: Set in your `.env` file (keep secure and never commit to version control)
 
 ## Admin Features
 

@@ -315,7 +315,7 @@ cd backend
 node createAdmin.js
 ```
 
-Follow the prompts to create an admin account.
+Follow the prompts to create an admin account. Store credentials securely.
 
 ### 3. Start the Application
 
@@ -333,7 +333,7 @@ npm run dev
 
 ### 4. Access Dashboard
 
-1. Navigate to `http://localhost:5173`
+1. Navigate to your frontend URL (e.g., `http://localhost:5173`)
 2. Sign in with admin credentials
 3. Click "Dashboard" in the header
 4. View real-time analytics

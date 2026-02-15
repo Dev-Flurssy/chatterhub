@@ -15,7 +15,7 @@
 
 - ✅ **Email Service** (`backend/services/emailService.js`)
   - DEV MODE support (logs emails to console instead of sending)
-  - Verification code generation (6 digits)
+  - Verification code generation
   - Secure token generation for password reset
   - Email templates for:
     - Email verification
@@ -153,9 +153,9 @@
   DEV_MODE=true  # Shows verification codes and reset links in console
   EMAIL_HOST=smtp.gmail.com
   EMAIL_PORT=587
-  EMAIL_USER=your-email@gmail.com
+  EMAIL_USER=your-email@example.com
   EMAIL_PASSWORD=your-app-password
-  EMAIL_FROM=ChatterHub <noreply@chatterhub.com>
+  EMAIL_FROM=YourApp <noreply@yourapp.com>
   FRONTEND_URL=http://localhost:3000
   
   # OAuth (optional)
